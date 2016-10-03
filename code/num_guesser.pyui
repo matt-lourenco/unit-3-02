@@ -1,0 +1,89 @@
+[
+  {
+    "selected" : false,
+    "frame" : "{{0, 0}, {1024, 768}}",
+    "class" : "View",
+    "nodes" : [
+      {
+        "selected" : false,
+        "frame" : "{{96, 65}, {384, 32}}",
+        "class" : "Label",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "font_name" : "<System>",
+          "frame" : "{{437, 368}, {150, 32}}",
+          "uuid" : "FA724513-B6B9-4603-A330-2FEA9C9174EC",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "Guess what number the computer has chosen",
+          "name" : "explanation_label",
+          "font_size" : 18
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{96, 105}, {200, 32}}",
+        "class" : "TextField",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "placeholder" : "0",
+          "font_name" : "<System>",
+          "frame" : "{{412, 368}, {200, 32}}",
+          "spellchecking_type" : "default",
+          "class" : "TextField",
+          "uuid" : "CF3D7CC8-09B0-4997-96D4-4C0FF74AC497",
+          "alignment" : "center",
+          "autocorrection_type" : "default",
+          "name" : "guess_textfield",
+          "font_size" : 17
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{96, 145}, {80, 32}}",
+        "class" : "Button",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "action" : "guess_touch_up_inside",
+          "frame" : "{{472, 368}, {80, 32}}",
+          "title" : "Guess!",
+          "uuid" : "6F978517-307F-41BC-B55E-58E1E4D518DF",
+          "class" : "Button",
+          "name" : "guess_button",
+          "font_size" : 15
+        }
+      },
+      {
+        "selected" : true,
+        "frame" : "{{96, 185}, {384, 63}}",
+        "class" : "Label",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "font_name" : "<System>",
+          "frame" : "{{437, 368}, {150, 32}}",
+          "uuid" : "30C0365C-F3D4-4193-8B4C-D5345C0396A7",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "",
+          "name" : "reply_label",
+          "font_size" : 18
+        }
+      }
+    ],
+    "attributes" : {
+      "enabled" : true,
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "flex" : ""
+    }
+  }
+]
